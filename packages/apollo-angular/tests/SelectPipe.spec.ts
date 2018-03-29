@@ -2,11 +2,12 @@ import './_setup';
 
 import {Pipe} from '@angular/core';
 
+import {getPipeMetadata} from './_utils';
 import {SelectPipe} from '../src/SelectPipe';
 
 describe('SelectPipe', () => {
   let pipe: SelectPipe;
-  const pipeMetadata: Pipe = Reflect.getMetadata('annotations', SelectPipe)[0];
+  const pipeMetadata: Pipe = getPipeMetadata(SelectPipe);
 
   beforeEach(() => {
     pipe = new SelectPipe();
