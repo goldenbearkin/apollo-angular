@@ -34,7 +34,7 @@
     "apollo-link": "1.2.1",
     "graphql": "0.13.2",
     "graphql-tag": "2.8.0",
-    "jest": "21.2.1",
+    "jest": "22.4.3",
     "rollup": "0.57.1",
     "ts-jest": "22.4.2",
     "typescript": "2.8.1"
